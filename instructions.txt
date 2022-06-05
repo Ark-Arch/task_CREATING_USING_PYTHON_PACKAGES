@@ -1,0 +1,30 @@
+*use inbuilt Python module random and its choice method.
+*IMPORT YOUR OWN VALIDATION AND CHECK MODULE!!!
+
+
+*create a LIST to store the possible game options.
+
+1. Ask user to pick option - R P S
+2. if (userInput is not in LIST): print error and repeat. else, go on! (VALIDITY_CHECK)
+3. use choice fxtn to make a choice for CPU.
+4. print CPU and player's moves
+5. CHECK RESULTS. 
+	if (winner exists): print winner and end program. 
+	else (tie): repeat from step1.
+
+
+
+FOR THE GAME:
+- ROCK > SCISSORS
+- SCISSORS > PAPER
+- PAPER > ROCK
+
+P > R > S > P
+
+
+
+PR, 0and1
+RS, 1and2
+SP, 2and0
+
+
