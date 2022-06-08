@@ -12,8 +12,6 @@
 	if (winner exists): print winner and end program. 
 	else (tie): repeat from step1.
 
-
-
 FOR THE GAME:
 - ROCK > SCISSORS
 - SCISSORS > PAPER
@@ -27,4 +25,22 @@ PR, 0and1
 RS, 1and2
 SP, 2and0
 
+
+WRITING A README FILE(https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+- Project's Title - helps to understand what the main goal and aim of the project is.
+- Project Description - very important component of the project. 
+	- What your application does.
+	- Why you used the technologies you used
+	- Some of the challenges you faced and features you hope to implement in the future.
+- Table of contents (Optional)
+	If the README is very long, you might want to add a table of contents to make it easy for users to navigtate to different sections easily.
+- How to Install and Run the Project
+	If you are working on a project that a user needs to install and run locally in a machine, then include the steps required to install your project and also the required dependencies if any.
+	PROVIDE A STEP-BY-STEP description of how to get the development environment set and running
+- How to Use the Project
+	provide instructions and examples so others can use the project.
+	also include credentials such as passwords or usernames
+- Include Credits. include links to the GitHub profiles and social media of collaborators and team members.
+- Add a License
+	Let others know what they can or can not do.
 

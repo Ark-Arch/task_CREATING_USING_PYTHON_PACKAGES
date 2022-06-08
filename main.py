@@ -4,7 +4,10 @@ game_possible_inputs = ['P','R','S']
 
 from rps_library import player_input_validation, check_place, game_rules, winner_check, what_input
 
-
+print(f"""
+YOU ARE ABOUT TO PLAY A GAME OF "PAPER, ROCK, SCISSORS",
+ENJOY YOURSELF! :)
+""")
 
 while True:
     player_input = player_input_validation(input("ENTER YOUR INPUT (can only be P,R or S)>> "), game_possible_inputs)
@@ -22,5 +25,5 @@ while True:
             check_input_places = check_place(game_input_list,game_possible_inputs)
             win_ticket = game_rules(check_input_places)
             winner = winner_check(player_input,cpu_input,win_ticket)
-            print(f"{winner} wins!!!")
+            print(f"{winner} win!!!")
             break

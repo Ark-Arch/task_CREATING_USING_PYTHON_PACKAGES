@@ -32,7 +32,7 @@ def game_rules(check_input_places):
 #CHECK WINNER
 def winner_check(player_input,cpu_input, win_ticket):
     if player_input == win_ticket:
-        return 'PLAYER'
+        return 'YOU'
     elif cpu_input == win_ticket:
         return 'CPU'
 
